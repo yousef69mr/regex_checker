@@ -1,0 +1,77 @@
+1
+valid email 
+Invalid email 
+Invalid email 
+x
+2
+valid phone number 
+valid phone number 
+valid phone number 
+Invalid phone number 
+Invalid phone number 
+x
+3
+valid date 
+Invalid date 
+Invalid date 
+x
+4
+valid IP address 
+Invalid IP address 
+x
+5
+valid c++ variable 
+valid c++ variable 
+valid c++ variable 
+Invalid c++ variable 
+Invalid c++ variable 
+Invalid c++ variable 
+x
+6
+Invalid string, has 3 consecutive b’s 
+Invalid string, has 3 consecutive b’s 
+valid string 
+x
+7
+*aabb*
+number of matched substrings: 1
+matched substring: aabb
+start index: 0, end index: 4
+*aabaaaaabaa*
+number of matched substrings: 2
+matched substring: aab
+start index: 0, end index: 3
+matched substring: aaaaab
+start index: 3, end index: 9
+x
+8
+*The cat is cute*
+number of matched words: 2
+matched word: The
+start index: 0, end index: 3
+matched word: cat
+start index: 4, end index: 7
+*an apple*
+No word matches
+x
+9
+*C:\problem9file.txt*
+Number of URLs: 4
+URL: https://www.example.com/
+Line: 1
+start index: 36, end index: 60
+URL: https://blog.example.com
+Line: 2
+start index: 55, end index: 79
+URL: https://twitter.com/example
+Line: 3
+start index: 35, end index: 62
+URL: https://www.example.com/example1/example2
+Line: 4
+start index: 43, end index: 84
+x
+10
+valid mathematical expression 
+valid mathematical expression 
+Invalid mathematical expression 
+x
