@@ -116,7 +116,7 @@ public class Main {
                             // not working
                             writer.write("7\n");
                             while (!(line = reader.readLine()).equals("end")) {
-                                regex = "(a+b+|b+a+)";
+                                regex = "(b+a+)(?:^[a-z]{2})|(a+b+)(?:[a-z]{2})";
                                 regexChecker = new RegexChecker(regex);
 
                                 matcher = regexChecker.check(line);
